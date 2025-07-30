@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target update_ekf[0m
+[ 11%] Built target v
+[ 22%] Built target ground_truth
+[ 33%] Built target node1
+[ 44%] Built target calculation
+[ 55%] Built target actual
+[ 66%] Built target ekf
+[ 77%] Built target node
+[ 88%] Built target node2
+[ 94%] [32mBuilding CXX object CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o[0m
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::poseCallback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:162:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  162 |     void poseCallback([01;35m[Kconst geometry_msgs::msg::Pose2D::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable update_ekf[0m
+[100%] Built target update_ekf
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node1
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/update_ekf
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node2
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/calculation
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/ground_truth
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/ekf
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/v
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/actual
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.bash
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.zsh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.dsv
+-- Symlinking: /home/rohit/slam2/install/hello/share/hello/package.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/packages/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig.cmake
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig-version.cmake
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/package.xml

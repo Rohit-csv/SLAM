@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[ 12%] Built target actual
+[ 25%] Built target calculation
+[ 37%] Built target node1
+[ 50%] Built target v
+[ 62%] Built target node2
+[ 75%] Built target node
+[ 87%] Built target ground_truth
+[ 93%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/pose2d.hpp: No such file or directory
+    2 | #include [01;31m[K"geometry_msgs/msg/pose2d.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/rohit/slam2/src/hello/src/actual.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+    4 | #include [01;31m[K"tf2/LinearMath/Quaternion.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/actual.dir/build.make:76: CMakeFiles/actual.dir/src/actual.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/actual.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

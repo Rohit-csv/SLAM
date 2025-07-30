@@ -1,0 +1,63 @@
+[0.011s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target calculation[0m
+[0.065s] [ 16%] Built target node1
+[0.068s] [ 25%] [32mBuilding CXX object CMakeFiles/calculation.dir/src/calculation.cpp.o[0m
+[0.068s] [ 41%] Built target v
+[0.068s] [ 58%] Built target node2
+[0.070s] [ 75%] Built target actual
+[0.070s] [ 91%] Built target node
+[1.435s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.435s]    49 |     void imuCallback(const [01;31m[Ksensor_msgs[m[K::msg::Imu::SharedPtr msg) {
+[1.435s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[1.435s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.435s]    49 |     void imuCallback(const sensor_msgs::msg[01;31m[K::[m[KImu::SharedPtr msg) {
+[1.435s]       |                                            [01;31m[K^~[m[K
+[1.435s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.435s]    49 |     void imuCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImu::SharedPtr msg) {
+[1.435s]       |                     [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[1.435s]       |                                            [32m[K)[m[K
+[1.435s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.435s]    49 |     void imuCallback(const sensor_msgs::[01;31m[Kmsg[m[K::Imu::SharedPtr msg) {
+[1.435s]       |                                         [01;31m[K^~~[m[K
+[1.435s]       |                                            [32m[K;[m[K
+[1.436s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:46:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.436s]    49 |     void imuCallback(const sensor_msgs::msg::[01;31m[KImu[m[K::SharedPtr msg) {
+[1.436s]       |                                              [01;31m[K^~~[m[K
+[1.463s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[1.463s]    58 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>::SharedPtr imu_sub_;
+[1.463s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[1.463s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.463s]    58 |     rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr imu_sub_;
+[1.463s]       |                                               [01;31m[K^[m[K
+[1.463s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.463s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.464s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.464s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.464s]    58 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K imu_sub_;
+[1.464s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[1.464s]       |                                                           [32m[K;[m[K
+[1.464s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub_[m[K’ does not name a type
+[1.464s]    58 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Kimu_sub_[m[K;
+[1.464s]       |                                                            [01;31m[K^~~~~~~~[m[K
+[1.473s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:[m[K In constructor ‘[01m[KWheelSpeedToVelocity::WheelSpeedToVelocity()[m[K’:
+[1.474s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub_[m[K’ was not declared in this scope
+[1.474s]    14 |         [01;31m[Kimu_sub_[m[K = this->create_subscription<sensor_msgs::msg::Imu>(
+[1.474s]       |         [01;31m[K^~~~~~~~[m[K
+[1.477s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[1.477s]    14 |         imu_sub_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>(
+[1.478s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[1.478s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.478s]    14 |         imu_sub_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Imu>[m[K(
+[1.478s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.478s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:16:24:[m[K [01;31m[Kerror: [m[K‘[01m[KImuSubscriberNode[m[K’ has not been declared
+[1.478s]    16 |             std::bind(&[01;31m[KImuSubscriberNode[m[K::imuCallback, this, std::placeholders::_1));
+[1.478s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.483s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:[m[K In member function ‘[01m[Kvoid WheelSpeedToVelocity::wheel_speed_callback(eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.483s] [01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocity_msg[m[K’?
+[1.483s]    42 |         [01;31m[Kvelocity_pub_[m[K->publish(velocity_msg);
+[1.483s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.483s]       |         [32m[Kvelocity_msg[m[K
+[2.938s] gmake[2]: *** [CMakeFiles/calculation.dir/build.make:76: CMakeFiles/calculation.dir/src/calculation.cpp.o] Error 1
+[2.938s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/calculation.dir/all] Error 2
+[2.939s] gmake: *** [Makefile:146: all] Error 2
+[2.941s] Invoked command in '/home/rohit/slam2/build/hello' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20

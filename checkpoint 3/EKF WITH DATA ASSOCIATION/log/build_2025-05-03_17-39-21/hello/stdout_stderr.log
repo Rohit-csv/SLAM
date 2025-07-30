@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target calculation[0m
+[ 16%] Built target actual
+[ 33%] Built target node
+[ 50%] Built target node1
+[ 66%] Built target node2
+[ 83%] Built target v
+[ 91%] [32mBuilding CXX object CMakeFiles/calculation.dir/src/calculation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable calculation[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/calculation.dir/build.make:199: calculation] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/calculation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

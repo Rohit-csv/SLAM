@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5302952b74bbb381d7a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hello",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "actual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actual-1809656b93b5fd5b140a.json",
+					"name" : "actual",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calculation-e3fbb9ac944bcd3cbcd6.json",
+					"name" : "calculation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_truth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_truth-1244b43e14d0a37de012.json",
+					"name" : "ground_truth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_uninstall-1d45e28a7d8acbf77169.json",
+					"name" : "hello_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node-d572fde5414307bbde55.json",
+					"name" : "node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node1-76f84510133b6c05456c.json",
+					"name" : "node1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node2-71c6dff27a81ec3c945b.json",
+					"name" : "node2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8f2174cf821003a2d4a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v-d3c84017a2ab3dc0ba69.json",
+					"name" : "v",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rohit/slam2/src/build/hello",
+		"source" : "/home/rohit/slam2/src/hello"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

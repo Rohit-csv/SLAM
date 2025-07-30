@@ -1,0 +1,12 @@
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:343:41:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KQ_[m[K’
+  343 | int main(int argc, char *argv[])        [01;31m[KQ_[m[K << 0.1, 0, 0,
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:346:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ does not name a type
+  346 |         [01;31m[KR_[m[K << 0.5, 0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:348:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  348 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/update_ekf.dir/build.make:76: CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/update_ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

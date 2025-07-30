@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/calculation.dir/build.make:76: CMakeFiles/calculation.dir/src/calculation.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/calculation.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

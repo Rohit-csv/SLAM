@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[  7%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[ 21%] Built target node
+[ 35%] Built target ground_truth
+[ 50%] Built target calculation
+[ 64%] Built target actual
+[ 78%] Built target node2
+[ 92%] Built target v

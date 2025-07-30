@@ -1,0 +1,4 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::cones_callback(eufs_msgs::msg::ConeArrayWithCovariance_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:36:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   36 |         int [01;35m[Kid[m[K = 0;
+      |             [01;35m[K^~[m[K

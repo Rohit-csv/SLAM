@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rohit/module2.1/install/service_package/lib/python3.10/site-packages",
+        "/home/rohit/module2.1/install/my_client_pkg/lib/python3.10/site-packages",
+        "/home/rohit/2dof/install/pos/lib/python3.10/site-packages",
+        "/home/rohit/2dof/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rohit/assigndirectory/install/pack1/lib/python3.10/site-packages",
+        "/home/rohit/mynode/install/package1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rohit/module2.1/install/service_package/lib/python3.10/site-packages",
+        "/home/rohit/module2.1/install/my_client_pkg/lib/python3.10/site-packages",
+        "/home/rohit/2dof/install/pos/lib/python3.10/site-packages",
+        "/home/rohit/2dof/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rohit/assigndirectory/install/pack1/lib/python3.10/site-packages",
+        "/home/rohit/mynode/install/package1/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "functional": "cpp"
+    }
+}

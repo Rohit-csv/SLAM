@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[  6%] [32m[1mLinking CXX executable ekf[0m
+[ 18%] Built target node1
+[ 31%] Built target calculation
+[ 43%] Built target v
+[ 56%] Built target node
+[ 68%] Built target actual
+[ 81%] Built target ground_truth
+[ 93%] Built target node2

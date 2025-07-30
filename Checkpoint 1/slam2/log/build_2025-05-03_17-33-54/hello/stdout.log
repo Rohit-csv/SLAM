@@ -1,0 +1,6 @@
+[ 16%] Built target node1
+[ 33%] Built target v
+[ 41%] [32mBuilding CXX object CMakeFiles/calculation.dir/src/calculation.cpp.o[0m
+[ 58%] Built target node2
+[ 91%] Built target node
+[ 91%] Built target actual

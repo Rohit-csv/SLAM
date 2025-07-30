@@ -1,0 +1,7 @@
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Keufs_msgs/msg/wheel_speeds_stamped.hpp: No such file or directory
+    2 | #include [01;31m[K"eufs_msgs/msg/wheel_speeds_stamped.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/calculation.dir/build.make:76: CMakeFiles/calculation.dir/src/calculation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/calculation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

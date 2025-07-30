@@ -1,0 +1,11 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::pose_callback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:34:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPose2DSubscriber::cones_callback()[m[K’
+   34 |         [01;31m[Kcones_callback()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:37:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Pose2DSubscriber::cones_callback(eufs_msgs::msg::ConeArrayWithCovariance_<std::allocator<void> >::SharedPtr)[m[K’
+   37 |     void [01;36m[Kcones_callback[m[K(const eufs_msgs::msg::ConeArrayWithCovariance::SharedPtr msg)
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:37:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

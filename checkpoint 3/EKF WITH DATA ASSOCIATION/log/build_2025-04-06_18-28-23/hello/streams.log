@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake /home/rohit/slam2/src/hello -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rohit/slam2/install/hello
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.140s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.161s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.165s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.204s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.288s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.322s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.353s] -- Found eufs_msgs: 2.0.0 (/home/rohit/install/eufs_msgs/share/eufs_msgs/cmake)
+[0.378s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.380s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.382s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.383s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.436s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.489s] -- Configured cppcheck include dirs: 
+[0.489s] -- Configured cppcheck exclude dirs and/or files: 
+[0.489s] -- Added test 'lint_cmake' to check CMake code style
+[0.490s] -- Added test 'uncrustify' to check C / C++ code style
+[0.490s] -- Configured uncrustify additional arguments: 
+[0.490s] -- Added test 'xmllint' to check XML markup files
+[0.491s] -- Configuring done
+[0.506s] -- Generating done
+[0.513s] -- Build files have been written to: /home/rohit/slam2/build/hello
+[0.519s] Invoked command in '/home/rohit/slam2/build/hello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake /home/rohit/slam2/src/hello -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rohit/slam2/install/hello
+[0.520s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[0.567s] [35m[1mConsolidate compiler generated dependencies of target node[0m
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target v[0m
+[0.569s] [35m[1mConsolidate compiler generated dependencies of target node1[0m
+[0.569s] [35m[1mConsolidate compiler generated dependencies of target node2[0m
+[0.569s] [35m[1mConsolidate compiler generated dependencies of target actual[0m
+[0.579s] [ 20%] [32m[1mLinking CXX executable node1[0m
+[0.579s] [ 20%] [32m[1mLinking CXX executable v[0m
+[0.580s] [ 30%] [32m[1mLinking CXX executable node[0m
+[0.583s] [ 40%] [32m[1mLinking CXX executable actual[0m
+[0.583s] [ 50%] [32m[1mLinking CXX executable node2[0m
+[0.757s] [ 60%] Built target actual
+[0.884s] [ 70%] Built target node2
+[0.905s] [ 80%] Built target node1
+[0.912s] [ 90%] Built target node
+[0.968s] [100%] Built target v
+[0.978s] Invoked command in '/home/rohit/slam2/build/hello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[0.990s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --install /home/rohit/slam2/build/hello
+[0.998s] -- Install configuration: ""
+[0.998s] -- Execute custom install script
+[0.999s] -- Symlinking: /home/rohit/slam2/install/hello/lib/hello/node1
+[1.007s] -- Symlinking: /home/rohit/slam2/install/hello/lib/hello/node2
+[1.016s] -- Symlinking: /home/rohit/slam2/install/hello/lib/hello/v
+[1.027s] -- Symlinking: /home/rohit/slam2/install/hello/lib/hello/actual
+[1.037s] -- Symlinking: /home/rohit/slam2/install/hello/lib/hello/node
+[1.047s] -- Symlinking: /home/rohit/slam2/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+[1.058s] -- Symlinking: /home/rohit/slam2/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+[1.068s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.sh
+[1.079s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.dsv
+[1.089s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/environment/path.sh
+[1.098s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/environment/path.dsv
+[1.109s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/local_setup.bash
+[1.120s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/local_setup.sh
+[1.131s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/local_setup.zsh
+[1.143s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/local_setup.dsv
+[1.154s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/package.dsv
+[1.167s] -- Symlinking: /home/rohit/slam2/install/hello/share/ament_index/resource_index/packages/hello
+[1.174s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig.cmake
+[1.183s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig-version.cmake
+[1.195s] -- Symlinking: /home/rohit/slam2/install/hello/share/hello/package.xml
+[1.208s] Invoked command in '/home/rohit/slam2/build/hello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --install /home/rohit/slam2/build/hello

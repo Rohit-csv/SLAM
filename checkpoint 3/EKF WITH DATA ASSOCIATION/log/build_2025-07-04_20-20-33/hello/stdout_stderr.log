@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[ 12%] Built target node1
+[ 25%] Built target ground_truth
+[ 37%] Built target node2
+[ 50%] Built target v
+[ 62%] Built target node
+[ 75%] Built target calculation
+[ 81%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 93%] Built target actual
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In constructor ‘[01m[KGlobalRacetrackMapper::GlobalRacetrackMapper()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_hat_[m[K’ was not declared in this scope
+   26 |         [01;31m[Kx_hat_[m[K.setZero();             // [x, y, θ]
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+   27 |         [01;31m[KP_[m[K = Mat3::Identity() * 1e2;  // initial large uncertainty
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:27:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMat3[m[K’ has not been declared
+   27 |         P_ = [01;31m[KMat3[m[K::Identity() * 1e2;  // initial large uncertainty
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+   28 |         [01;31m[KQ_[m[K = Mat3::Identity() * 1e-3; // small process noise
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:28:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMat3[m[K’ has not been declared
+   28 |         Q_ = [01;31m[KMat3[m[K::Identity() * 1e-3; // small process noise
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope
+   30 |         [01;31m[KR_[m[K = (Eigen::Matrix2d() << 0.2 * 0.2, 0, 0, (5 * M_PI / 180) * (5 * M_PI / 180)).finished();
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid GlobalRacetrackMapper::onPose(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[KVec3[m[K’ was not declared in this scope
+   44 |         [01;31m[KVec3[m[K z(m->x, m->y, m->theta); // input from /robot_pose_2d
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_hat_[m[K’ was not declared in this scope
+   45 |         [01;31m[Kx_hat_[m[K = z;                   // linear model F=I
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:45:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+   45 |         x_hat_ = [01;31m[Kz[m[K;                   // linear model F=I
+      |                  [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+   46 |         [01;31m[KP_[m[K += Q_;                     // P = P + Q
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:46:15:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+   46 |         P_ += [01;31m[KQ_[m[K;                     // P = P + Q
+      |               [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:41:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |     void onPose([01;35m[Kconst geometry_msgs::msg::Pose2D::SharedPtr m[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

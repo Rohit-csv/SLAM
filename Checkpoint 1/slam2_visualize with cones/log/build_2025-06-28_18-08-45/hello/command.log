@@ -1,0 +1,2 @@
+Invoking command in '/home/rohit/slam2/build/hello': /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+Invoked command in '/home/rohit/slam2/build/hello' returned '2': /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20

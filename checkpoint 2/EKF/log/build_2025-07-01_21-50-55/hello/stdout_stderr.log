@@ -1,0 +1,16 @@
+[ 37%] Built target calculation
+[ 37%] Built target actual
+[ 37%] Built target ground_truth
+[ 43%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 56%] Built target v
+[ 68%] Built target node1
+[ 81%] Built target node
+[ 93%] Built target node2
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[KrclCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+  143 |     [01;31m[KrclCPP_INFO[m[K(rclcpp::get_logger("main"), "Node shutdown");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

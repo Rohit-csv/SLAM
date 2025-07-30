@@ -1,0 +1,8 @@
+[  6%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 18%] Built target v
+[ 31%] Built target node1
+[ 43%] Built target actual
+[ 56%] Built target node
+[ 68%] Built target calculation
+[ 81%] Built target ground_truth
+[ 93%] Built target node2

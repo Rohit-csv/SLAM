@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000430] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.000510] (hello) JobStarted: {'identifier': 'hello'}
+[0.020856] (hello) JobProgress: {'identifier': 'hello', 'progress': 'cmake'}
+[0.023371] (hello) JobProgress: {'identifier': 'hello', 'progress': 'build'}
+[0.023492] (hello) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rohit/slam2/build/hello', '--', '-j20', '-l20'], 'cwd': '/home/rohit/slam2/build/hello', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/iitb-racecar/install/racecar_plugins/lib:/home/rohit/ros2_ws/install/turtlesim/lib:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/rohit/install/turtlesim/lib:/home/rohit/install/examples_rclcpp_wait_set/lib:/home/rohit/install/examples_rclcpp_minimal_subscriber/lib:/home/rohit/install/examples_rclcpp_minimal_composition/lib:/home/rohit/install/eufs_plugins/lib:/home/rohit/install/eufs_models/lib:/home/rohit/install/eufs_msgs/lib:/home/rohit/2dof/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rohit/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/rohit/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2312'), ('SYSTEMD_EXEC_PID', '2493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6752'), ('NVM_DIR', '/home/rohit/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rohit/slam2/install:/home/rohit/iitb-racecar/install:/home/rohit/module2.1/install:/home/rohit/robot_arm_ws_dup/install:/home/rohit/2dof/install:/home/rohit/assigndirectory/install:/home/rohit/mynode/install:/home/rohit/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rohit'), ('JOURNAL_STREAM', '8:26781'), ('EUFS_MASTER', '/home/rohit/sim/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/rohit/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohit-LOQ-15IRX9:@/tmp/.ICE-unix/2460,unix/rohit-LOQ-15IRX9:/tmp/.ICE-unix/2460'), ('INVOCATION_ID', '56482bf44f3d47f9b0c2971c4d04a08f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EJ4A92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rohit/slam2/install/hello:/home/rohit/iitb-racecar/install/racecar_plugins:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/racecar_description:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/turtlesim:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set:/home/rohit/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_timer:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_service:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_client:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclcpp_cbg_executor:/home/rohit/ros2_ws/install/examples_rclcpp_async_client:/home/rohit/install/turtlesim:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/my_marker_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/examples_rclcpp_wait_set:/home/rohit/install/examples_rclcpp_multithreaded_executor:/home/rohit/install/examples_rclcpp_minimal_timer:/home/rohit/install/examples_rclcpp_minimal_subscriber:/home/rohit/install/examples_rclcpp_minimal_service:/home/rohit/install/examples_rclcpp_minimal_publisher:/home/rohit/install/examples_rclcpp_minimal_composition:/home/rohit/install/examples_rclcpp_minimal_client:/home/rohit/install/examples_rclcpp_minimal_action_server:/home/rohit/install/examples_rclcpp_minimal_action_client:/home/rohit/install/examples_rclcpp_cbg_executor:/home/rohit/install/examples_rclcpp_async_client:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_sensors:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/install/eufs_plugins:/home/rohit/install/eufs_models:/home/rohit/install/eufs_msgs:/home/rohit/module2.1/install/services:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_marker_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/robot_arm_ws_dup/install/robot_arm:/home/rohit/2dof/install/pos:/home/rohit/2dof/install/my_robot:/home/rohit/2dof/install/custom_interfaces:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:27c234bb-efdc-404c-8117-36e7dc546137'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/slam2/build/hello'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohit/iitb-racecar/install/racecar/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/point_mass_pkg/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/odom_cmd_pkg/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/rohit/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/rohit/install/turtlesim/local/lib/python3.10/dist-packages:/home/rohit/install/py_pubsub/lib/python3.10/site-packages:/home/rohit/install/package1/lib/python3.10/site-packages:/home/rohit/install/pack1/lib/python3.10/site-packages:/home/rohit/install/my_package/lib/python3.10/site-packages:/home/rohit/install/launch_testing_examples/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/rohit/install/eufs_launcher/lib/python3.10/site-packages:/home/rohit/install/eufs_tracks/lib/python3.10/site-packages:/home/rohit/install/eufs_rqt/lib/python3.10/site-packages:/home/rohit/install/eufs_racecar/lib/python3.10/site-packages:/home/rohit/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/rohit/module2.1/install/service_package/lib/python3.10/site-packages:/home/rohit/module2.1/install/my_client_pkg/lib/python3.10/site-packages:/home/rohit/2dof/install/pos/lib/python3.10/site-packages:/home/rohit/2dof/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/rohit/assigndirectory/install/pack1/lib/python3.10/site-packages:/home/rohit/mynode/install/package1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/slam2/install/hello:/home/rohit/iitb-racecar/install/racecar_plugins:/home/rohit/iitb-racecar/install/racecar_description:/home/rohit/ros2_ws/install/turtlesim:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set:/home/rohit/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_timer:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_service:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_client:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclcpp_cbg_executor:/home/rohit/ros2_ws/install/examples_rclcpp_async_client:/home/rohit/install/turtlesim:/home/rohit/install/my_marker_package:/home/rohit/install/examples_rclcpp_wait_set:/home/rohit/install/examples_rclcpp_multithreaded_executor:/home/rohit/install/examples_rclcpp_minimal_timer:/home/rohit/install/examples_rclcpp_minimal_subscriber:/home/rohit/install/examples_rclcpp_minimal_service:/home/rohit/install/examples_rclcpp_minimal_publisher:/home/rohit/install/examples_rclcpp_minimal_composition:/home/rohit/install/examples_rclcpp_minimal_client:/home/rohit/install/examples_rclcpp_minimal_action_server:/home/rohit/install/examples_rclcpp_minimal_action_client:/home/rohit/install/examples_rclcpp_cbg_executor:/home/rohit/install/examples_rclcpp_async_client:/home/rohit/install/eufs_sensors:/home/rohit/install/eufs_plugins:/home/rohit/install/eufs_models:/home/rohit/install/eufs_msgs:/home/rohit/module2.1/install/services:/home/rohit/module2.1/install/my_marker_package:/home/rohit/robot_arm_ws_dup/install/robot_arm:/home/rohit/2dof/install/my_robot:/home/rohit/2dof/install/custom_interfaces:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble')]), 'shell': False}
+[0.099123] (-) TimerEvent: {}
+[0.112659] (hello) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target update_ekf\x1b[0m\n'}
+[0.136224] (hello) StdoutLine: {'line': b'[ 11%] Built target ekf\n'}
+[0.137116] (hello) StdoutLine: {'line': b'[ 44%] Built target actual\n'}
+[0.137422] (hello) StdoutLine: {'line': b'[ 44%] Built target node1\n'}
+[0.137634] (hello) StdoutLine: {'line': b'[ 44%] Built target node2\n'}
+[0.139708] (hello) StdoutLine: {'line': b'[ 55%] Built target v\n'}
+[0.140111] (hello) StdoutLine: {'line': b'[ 66%] Built target ground_truth\n'}
+[0.145490] (hello) StdoutLine: {'line': b'[ 77%] Built target node\n'}
+[0.145835] (hello) StdoutLine: {'line': b'[ 88%] Built target calculation\n'}
+[0.147414] (hello) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o\x1b[0m\n'}
+[0.199355] (-) TimerEvent: {}
+[0.299871] (-) TimerEvent: {}
+[0.400359] (-) TimerEvent: {}
+[0.500838] (-) TimerEvent: {}
+[0.601353] (-) TimerEvent: {}
+[0.701808] (-) TimerEvent: {}
+[0.802358] (-) TimerEvent: {}
+[0.902895] (-) TimerEvent: {}
+[1.003483] (-) TimerEvent: {}
+[1.103979] (-) TimerEvent: {}
+[1.204436] (-) TimerEvent: {}
+[1.304818] (-) TimerEvent: {}
+[1.405196] (-) TimerEvent: {}
+[1.505694] (-) TimerEvent: {}
+[1.606088] (-) TimerEvent: {}
+[1.706506] (-) TimerEvent: {}
+[1.806873] (-) TimerEvent: {}
+[1.907285] (-) TimerEvent: {}
+[2.007658] (-) TimerEvent: {}
+[2.108038] (-) TimerEvent: {}
+[2.208400] (-) TimerEvent: {}
+[2.308790] (-) TimerEvent: {}
+[2.409203] (-) TimerEvent: {}
+[2.509752] (-) TimerEvent: {}
+[2.610153] (-) TimerEvent: {}
+[2.710631] (-) TimerEvent: {}
+[2.811087] (-) TimerEvent: {}
+[2.911536] (-) TimerEvent: {}
+[3.011936] (-) TimerEvent: {}
+[3.112314] (-) TimerEvent: {}
+[3.212707] (-) TimerEvent: {}
+[3.313106] (-) TimerEvent: {}
+[3.413434] (-) TimerEvent: {}
+[3.513830] (-) TimerEvent: {}
+[3.614210] (-) TimerEvent: {}
+[3.714637] (-) TimerEvent: {}
+[3.815029] (-) TimerEvent: {}
+[3.915416] (-) TimerEvent: {}
+[4.015775] (-) TimerEvent: {}
+[4.116166] (-) TimerEvent: {}
+[4.216571] (-) TimerEvent: {}
+[4.316981] (-) TimerEvent: {}
+[4.417378] (-) TimerEvent: {}
+[4.517702] (-) TimerEvent: {}
+[4.618046] (-) TimerEvent: {}
+[4.718452] (-) TimerEvent: {}
+[4.818827] (-) TimerEvent: {}
+[4.919287] (-) TimerEvent: {}
+[5.019717] (-) TimerEvent: {}
+[5.120187] (-) TimerEvent: {}
+[5.220677] (-) TimerEvent: {}
+[5.321121] (-) TimerEvent: {}
+[5.421483] (-) TimerEvent: {}
+[5.521804] (-) TimerEvent: {}
+[5.622213] (-) TimerEvent: {}
+[5.722611] (-) TimerEvent: {}
+[5.822999] (-) TimerEvent: {}
+[5.923414] (-) TimerEvent: {}
+[6.023814] (-) TimerEvent: {}
+[6.124201] (-) TimerEvent: {}
+[6.224532] (-) TimerEvent: {}
+[6.324860] (-) TimerEvent: {}
+[6.425239] (-) TimerEvent: {}
+[6.525564] (-) TimerEvent: {}
+[6.626036] (-) TimerEvent: {}
+[6.726566] (-) TimerEvent: {}
+[6.827027] (-) TimerEvent: {}
+[6.927478] (-) TimerEvent: {}
+[7.027884] (-) TimerEvent: {}
+[7.128274] (-) TimerEvent: {}
+[7.228704] (-) TimerEvent: {}
+[7.329060] (-) TimerEvent: {}
+[7.429383] (-) TimerEvent: {}
+[7.529696] (-) TimerEvent: {}
+[7.630081] (-) TimerEvent: {}
+[7.730500] (-) TimerEvent: {}
+[7.830901] (-) TimerEvent: {}
+[7.931318] (-) TimerEvent: {}
+[8.031705] (-) TimerEvent: {}
+[8.132103] (-) TimerEvent: {}
+[8.232469] (-) TimerEvent: {}
+[8.332914] (-) TimerEvent: {}
+[8.433330] (-) TimerEvent: {}
+[8.533884] (-) TimerEvent: {}
+[8.634272] (-) TimerEvent: {}
+[8.734710] (-) TimerEvent: {}
+[8.835194] (-) TimerEvent: {}
+[8.935675] (-) TimerEvent: {}
+[9.036161] (-) TimerEvent: {}
+[9.136688] (-) TimerEvent: {}
+[9.237124] (-) TimerEvent: {}
+[9.337582] (-) TimerEvent: {}
+[9.438017] (-) TimerEvent: {}
+[9.538468] (-) TimerEvent: {}
+[9.638820] (-) TimerEvent: {}
+[9.739263] (-) TimerEvent: {}
+[9.839869] (-) TimerEvent: {}
+[9.940335] (-) TimerEvent: {}
+[10.040688] (-) TimerEvent: {}
+[10.141058] (-) TimerEvent: {}
+[10.241471] (-) TimerEvent: {}
+[10.341780] (-) TimerEvent: {}
+[10.442161] (-) TimerEvent: {}
+[10.542495] (-) TimerEvent: {}
+[10.642862] (-) TimerEvent: {}
+[10.743235] (-) TimerEvent: {}
+[10.843553] (-) TimerEvent: {}
+[10.943992] (-) TimerEvent: {}
+[11.044428] (-) TimerEvent: {}
+[11.144817] (-) TimerEvent: {}
+[11.245229] (-) TimerEvent: {}
+[11.345641] (-) TimerEvent: {}
+[11.445966] (-) TimerEvent: {}
+[11.546344] (-) TimerEvent: {}
+[11.646725] (-) TimerEvent: {}
+[11.747108] (-) TimerEvent: {}
+[11.847493] (-) TimerEvent: {}
+[11.947849] (-) TimerEvent: {}
+[12.048216] (-) TimerEvent: {}
+[12.148535] (-) TimerEvent: {}
+[12.248833] (-) TimerEvent: {}
+[12.349223] (-) TimerEvent: {}
+[12.449615] (-) TimerEvent: {}
+[12.549927] (-) TimerEvent: {}
+[12.650301] (-) TimerEvent: {}
+[12.750670] (-) TimerEvent: {}
+[12.851029] (-) TimerEvent: {}
+[12.951390] (-) TimerEvent: {}
+[13.051808] (-) TimerEvent: {}
+[13.152322] (-) TimerEvent: {}
+[13.252714] (-) TimerEvent: {}
+[13.353116] (-) TimerEvent: {}
+[13.453506] (-) TimerEvent: {}
+[13.553889] (-) TimerEvent: {}
+[13.654287] (-) TimerEvent: {}
+[13.754664] (-) TimerEvent: {}
+[13.855036] (-) TimerEvent: {}
+[13.955475] (-) TimerEvent: {}
+[14.055874] (-) TimerEvent: {}
+[14.156225] (-) TimerEvent: {}
+[14.256598] (-) TimerEvent: {}
+[14.357006] (-) TimerEvent: {}
+[14.457400] (-) TimerEvent: {}
+[14.557781] (-) TimerEvent: {}
+[14.658152] (-) TimerEvent: {}
+[14.758562] (-) TimerEvent: {}
+[14.858867] (-) TimerEvent: {}
+[14.959302] (-) TimerEvent: {}
+[15.059772] (-) TimerEvent: {}
+[15.160187] (-) TimerEvent: {}
+[15.260518] (-) TimerEvent: {}
+[15.360970] (-) TimerEvent: {}
+[15.461381] (-) TimerEvent: {}
+[15.561777] (-) TimerEvent: {}
+[15.662177] (-) TimerEvent: {}
+[15.762589] (-) TimerEvent: {}
+[15.862997] (-) TimerEvent: {}
+[15.963393] (-) TimerEvent: {}
+[16.063771] (-) TimerEvent: {}
+[16.164183] (-) TimerEvent: {}
+[16.264567] (-) TimerEvent: {}
+[16.365011] (-) TimerEvent: {}
+[16.465429] (-) TimerEvent: {}
+[16.565910] (-) TimerEvent: {}
+[16.656653] (hello) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable update_ekf\x1b[0m\n'}
+[16.666096] (-) TimerEvent: {}
+[16.766480] (-) TimerEvent: {}
+[16.866911] (-) TimerEvent: {}
+[16.967333] (-) TimerEvent: {}
+[17.067694] (-) TimerEvent: {}
+[17.168117] (-) TimerEvent: {}
+[17.268513] (-) TimerEvent: {}
+[17.368876] (-) TimerEvent: {}
+[17.469201] (-) TimerEvent: {}
+[17.550993] (hello) StdoutLine: {'line': b'[100%] Built target update_ekf\n'}
+[17.567012] (hello) CommandEnded: {'returncode': 0}
+[17.568733] (hello) JobProgress: {'identifier': 'hello', 'progress': 'install'}
+[17.569300] (-) TimerEvent: {}
+[17.580048] (hello) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rohit/slam2/build/hello'], 'cwd': '/home/rohit/slam2/build/hello', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rohit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rohit/iitb-racecar/install/racecar_plugins/lib:/home/rohit/ros2_ws/install/turtlesim/lib:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/rohit/install/turtlesim/lib:/home/rohit/install/examples_rclcpp_wait_set/lib:/home/rohit/install/examples_rclcpp_minimal_subscriber/lib:/home/rohit/install/examples_rclcpp_minimal_composition/lib:/home/rohit/install/eufs_plugins/lib:/home/rohit/install/eufs_models/lib:/home/rohit/install/eufs_msgs/lib:/home/rohit/2dof/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rohit'), ('OLDPWD', '/home/rohit'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rohit/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/rohit/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2312'), ('SYSTEMD_EXEC_PID', '2493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6752'), ('NVM_DIR', '/home/rohit/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rohit/slam2/install:/home/rohit/iitb-racecar/install:/home/rohit/module2.1/install:/home/rohit/robot_arm_ws_dup/install:/home/rohit/2dof/install:/home/rohit/assigndirectory/install:/home/rohit/mynode/install:/home/rohit/install:/home/rohit/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rohit'), ('JOURNAL_STREAM', '8:26781'), ('EUFS_MASTER', '/home/rohit/sim/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rohit'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/rohit/.nvm/versions/node/v18.20.8/bin:/opt/ros/humble/bin:/home/rohit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rohit-LOQ-15IRX9:@/tmp/.ICE-unix/2460,unix/rohit-LOQ-15IRX9:/tmp/.ICE-unix/2460'), ('INVOCATION_ID', '56482bf44f3d47f9b0c2971c4d04a08f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EJ4A92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rohit/slam2/install/hello:/home/rohit/iitb-racecar/install/racecar_plugins:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/racecar_description:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/turtlesim:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set:/home/rohit/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_timer:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_service:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_client:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclcpp_cbg_executor:/home/rohit/ros2_ws/install/examples_rclcpp_async_client:/home/rohit/install/turtlesim:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/my_marker_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/examples_rclcpp_wait_set:/home/rohit/install/examples_rclcpp_multithreaded_executor:/home/rohit/install/examples_rclcpp_minimal_timer:/home/rohit/install/examples_rclcpp_minimal_subscriber:/home/rohit/install/examples_rclcpp_minimal_service:/home/rohit/install/examples_rclcpp_minimal_publisher:/home/rohit/install/examples_rclcpp_minimal_composition:/home/rohit/install/examples_rclcpp_minimal_client:/home/rohit/install/examples_rclcpp_minimal_action_server:/home/rohit/install/examples_rclcpp_minimal_action_client:/home/rohit/install/examples_rclcpp_cbg_executor:/home/rohit/install/examples_rclcpp_async_client:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_sensors:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/install/eufs_plugins:/home/rohit/install/eufs_models:/home/rohit/install/eufs_msgs:/home/rohit/module2.1/install/services:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_marker_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/robot_arm_ws_dup/install/robot_arm:/home/rohit/2dof/install/pos:/home/rohit/2dof/install/my_robot:/home/rohit/2dof/install/custom_interfaces:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:27c234bb-efdc-404c-8117-36e7dc546137'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rohit/slam2/build/hello'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rohit/iitb-racecar/install/racecar/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/point_mass_pkg/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/odom_cmd_pkg/lib/python3.10/site-packages:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/rohit/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/rohit/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/rohit/install/turtlesim/local/lib/python3.10/dist-packages:/home/rohit/install/py_pubsub/lib/python3.10/site-packages:/home/rohit/install/package1/lib/python3.10/site-packages:/home/rohit/install/pack1/lib/python3.10/site-packages:/home/rohit/install/my_package/lib/python3.10/site-packages:/home/rohit/install/launch_testing_examples/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/rohit/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/rohit/install/eufs_launcher/lib/python3.10/site-packages:/home/rohit/install/eufs_tracks/lib/python3.10/site-packages:/home/rohit/install/eufs_rqt/lib/python3.10/site-packages:/home/rohit/install/eufs_racecar/lib/python3.10/site-packages:/home/rohit/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/rohit/module2.1/install/service_package/lib/python3.10/site-packages:/home/rohit/module2.1/install/my_client_pkg/lib/python3.10/site-packages:/home/rohit/2dof/install/pos/lib/python3.10/site-packages:/home/rohit/2dof/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/rohit/assigndirectory/install/pack1/lib/python3.10/site-packages:/home/rohit/mynode/install/package1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rohit/slam2/install/hello:/home/rohit/iitb-racecar/install/racecar_plugins:/home/rohit/iitb-racecar/install/racecar_description:/home/rohit/ros2_ws/install/turtlesim:/home/rohit/ros2_ws/install/examples_rclcpp_wait_set:/home/rohit/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_timer:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_service:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_composition:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_client:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclcpp_cbg_executor:/home/rohit/ros2_ws/install/examples_rclcpp_async_client:/home/rohit/install/turtlesim:/home/rohit/install/my_marker_package:/home/rohit/install/examples_rclcpp_wait_set:/home/rohit/install/examples_rclcpp_multithreaded_executor:/home/rohit/install/examples_rclcpp_minimal_timer:/home/rohit/install/examples_rclcpp_minimal_subscriber:/home/rohit/install/examples_rclcpp_minimal_service:/home/rohit/install/examples_rclcpp_minimal_publisher:/home/rohit/install/examples_rclcpp_minimal_composition:/home/rohit/install/examples_rclcpp_minimal_client:/home/rohit/install/examples_rclcpp_minimal_action_server:/home/rohit/install/examples_rclcpp_minimal_action_client:/home/rohit/install/examples_rclcpp_cbg_executor:/home/rohit/install/examples_rclcpp_async_client:/home/rohit/install/eufs_sensors:/home/rohit/install/eufs_plugins:/home/rohit/install/eufs_models:/home/rohit/install/eufs_msgs:/home/rohit/module2.1/install/services:/home/rohit/module2.1/install/my_marker_package:/home/rohit/robot_arm_ws_dup/install/robot_arm:/home/rohit/2dof/install/my_robot:/home/rohit/2dof/install/custom_interfaces:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble')]), 'shell': False}
+[17.592850] (hello) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.593626] (hello) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.593965] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node1\n'}
+[17.594147] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/update_ekf\n'}
+[17.594499] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node2\n'}
+[17.594665] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/calculation\n'}
+[17.594789] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/ground_truth\n'}
+[17.594969] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/ekf\n'}
+[17.595162] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/v\n'}
+[17.595488] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/actual\n'}
+[17.595661] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node\n'}
+[17.595757] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/package_run_dependencies/hello\n'}
+[17.595914] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/parent_prefix_path/hello\n'}
+[17.596063] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.sh\n'}
+[17.596196] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.dsv\n'}
+[17.596432] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.sh\n'}
+[17.596666] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.dsv\n'}
+[17.596778] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.bash\n'}
+[17.596972] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.sh\n'}
+[17.597137] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.zsh\n'}
+[17.597237] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.dsv\n'}
+[17.597353] (hello) StdoutLine: {'line': b'-- Symlinking: /home/rohit/slam2/install/hello/share/hello/package.dsv\n'}
+[17.609863] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/packages/hello\n'}
+[17.610186] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig.cmake\n'}
+[17.610319] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig-version.cmake\n'}
+[17.610424] (hello) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/package.xml\n'}
+[17.612644] (hello) CommandEnded: {'returncode': 0}
+[17.632239] (hello) JobEnded: {'identifier': 'hello', 'rc': 0}
+[17.633124] (-) EventReactorShutdown: {}

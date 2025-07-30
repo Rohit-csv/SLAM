@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[ 12%] Built target v
+[ 25%] Built target actual
+[ 37%] Built target node
+[ 50%] Built target node2
+[ 62%] Built target ground_truth
+[ 75%] Built target node1
+[ 81%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 93%] Built target calculation
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::pose_callback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:34:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   34 |                     [01;31m[Kx[m[K=msg->x;
+      |                     [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   35 |                     [01;31m[Ky[m[K=msg->y;
+      |                     [01;31m[K^[m[K
+      |                     [32m[Kyn[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::publishMarkerArray(const std::vector<std::vector<double, std::allocator<double> > >&, rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >::SharedPtr, rclcpp::Node*, int, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:110:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  110 |         marker.pose.position.x = positions_colours[i][0] + [01;31m[Kx[m[K;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:111:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  111 |         marker.pose.position.y = positions_colours[i][1] + [01;31m[Ky[m[K;
+      |                                                            [01;31m[K^[m[K
+      |                                                            [32m[Kyn[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

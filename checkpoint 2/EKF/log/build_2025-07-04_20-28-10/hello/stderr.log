@@ -1,0 +1,9 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:172:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool GlobalRacetrackMapper::pose_received_[m[K’
+  172 |     bool [01;31m[Kpose_received_[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:166:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool GlobalRacetrackMapper::pose_received_[m[K’
+  166 |     bool [01;36m[Kpose_received_[m[K; // <-- DELETE this lin
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

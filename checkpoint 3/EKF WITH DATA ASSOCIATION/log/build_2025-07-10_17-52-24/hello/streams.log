@@ -1,0 +1,126 @@
+[0.013s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target update_ekf[0m
+[0.103s] [ 11%] Built target calculation
+[0.103s] [ 22%] Built target v
+[0.105s] [ 33%] Built target node
+[0.105s] [ 44%] Built target ground_truth
+[0.108s] [ 55%] Built target ekf
+[0.108s] [ 66%] Built target node2
+[0.108s] [ 77%] Built target node1
+[0.111s] [ 88%] Built target actual
+[0.115s] [ 94%] [32mBuilding CXX object CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o[0m
+[1.982s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In constructor ‘[01m[KEKFLocalizer::EKFLocalizer()[m[K’:
+[1.982s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_sub_[m[K’ was not declared in this scope
+[1.982s]    27 |         [01;31m[Kpose_sub_[m[K = create_subscription<geometry_msgs::msg::Pose2D>(
+[1.982s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.021s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcones_sub_[m[K’ was not declared in this scope
+[2.021s]    31 |         [01;31m[Kcones_sub_[m[K = this->create_subscription<geometry_msgs::msg::PoseArray>(
+[2.021s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.053s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[2.053s]    35 |         [01;31m[Kmarker_pub_[m[K = create_publisher<visualization_msgs::msg::Marker>(
+[2.053s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.060s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ was not declared in this scope
+[2.060s]    38 |         [01;31m[Kvel_sub_[m[K = this->create_subscription<geometry_msgs::msg::TwistStamped>(
+[2.061s]       |         [01;31m[K^~~~~~~~[m[K
+[2.094s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_cones_polar_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_cones_polar_callback[m[K’?
+[2.094s]    42 |         [01;31m[Klocal_cones_polar_sub_[m[K = this->create_subscription<geometry_msgs::msg::PoseArray>(
+[2.094s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.094s]       |         [32m[Klocal_cones_polar_callback[m[K
+[2.097s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.098s]    46 |         [01;31m[Kx_[m[K = Eigen::Vector3d::Zero();
+[2.098s]       |         [01;31m[K^~[m[K
+[2.116s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+[2.116s]    48 |         [01;31m[KP_[m[K << 10.0, 0.0, 0.0,
+[2.116s]       |         [01;31m[K^~[m[K
+[2.120s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+[2.120s]    51 |         [01;31m[KQ_[m[K << 0.1, 0, 0,
+[2.120s]       |         [01;31m[K^~[m[K
+[2.123s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope
+[2.123s]    54 |         [01;31m[KR_[m[K << 0.5, 0,
+[2.123s]       |         [01;31m[K^~[m[K
+[2.129s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_timer_[m[K’ was not declared in this scope
+[2.129s]    57 |         [01;31m[Kmarker_timer_[m[K = this->create_wall_timer(
+[2.129s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.129s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:59:38:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishMarker[m[K’ is not a member of ‘[01m[KEKFLocalizer[m[K’
+[2.129s]    59 |             std::bind(&EKFLocalizer::[01;31m[KpublishMarker[m[K, this));
+[2.129s]       |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.138s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::conesArrayCallback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.138s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+[2.138s]    69 |         [01;31m[Kcone_positions_[m[K.clear();
+[2.138s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.138s]       |         [32m[Knode_options_[m[K
+[2.144s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::logConePositions() const[m[K’:
+[2.144s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+[2.144s]    82 |         for (const auto &pt : [01;31m[Kcone_positions_[m[K)
+[2.144s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.144s]       |                               [32m[Knode_options_[m[K
+[2.149s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::poseCallback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.150s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.150s]    91 |         [01;31m[Kx_[m[K(0) = msg->x;
+[2.150s]       |         [01;31m[K^~[m[K
+[2.155s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::velCallback(geometry_msgs::msg::TwistStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.155s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx_[m[K’ was not declared in this scope
+[2.155s]    99 |         [01;31m[Kvx_[m[K = msg->twist.linear.x;
+[2.155s]       |         [01;31m[K^~~[m[K
+[2.158s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy_[m[K’ was not declared in this scope
+[2.158s]   100 |         [01;31m[Kvy_[m[K = msg->twist.linear.y;
+[2.158s]       |         [01;31m[K^~~[m[K
+[2.161s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_[m[K’ was not declared in this scope
+[2.161s]   101 |         [01;31m[Kv_[m[K = std::sqrt(vx_ * vx_ + vy_ * vy_);
+[2.161s]       |         [01;31m[K^~[m[K
+[2.172s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::predictCovariance(double)[m[K’:
+[2.172s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_[m[K’ was not declared in this scope
+[2.172s]   107 |         calculateJacobianAndTranspose(theta, [01;31m[Kv_[m[K, dt_, F_k, F_k_T);
+[2.172s]       |                                              [01;31m[K^~[m[K
+[2.175s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt_[m[K’ was not declared in this scope
+[2.175s]   107 |         calculateJacobianAndTranspose(theta, v_, [01;31m[Kdt_[m[K, F_k, F_k_T);
+[2.175s]       |                                                  [01;31m[K^~~[m[K
+[2.186s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateJacobianAndTranspose[m[K’ was not declared in this scope
+[2.186s]   107 |         [01;31m[KcalculateJacobianAndTranspose[m[K(theta, v_, dt_, F_k, F_k_T);
+[2.186s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.189s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+[2.189s]   108 |         [01;31m[KP_[m[K = F_k * P_ * F_k_T + Q_;
+[2.189s]       |         [01;31m[K^~[m[K
+[2.192s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+[2.192s]   108 |         P_ = F_k * P_ * F_k_T + [01;31m[KQ_[m[K;
+[2.192s]       |                                 [01;31m[K^~[m[K
+[2.200s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::local_cones_polar_callback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.200s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+[2.201s]   113 |         [01;31m[Kcone_polar_positions_[m[K.clear();
+[2.201s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.212s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::measurementUpdate(const Vector2d&, const Vector2d&)[m[K’:
+[2.212s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:127:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.212s]   127 |         double dx = cone_pos.x() - [01;31m[Kx_[m[K(0);
+[2.212s]       |                                    [01;31m[K^~[m[K
+[2.232s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:139:33:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+[2.232s]   139 |         Eigen::Matrix2d S = H * [01;31m[KP_[m[K * H.transpose() + R_;
+[2.232s]       |                                 [01;31m[K^~[m[K
+[2.242s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:139:54:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope
+[2.242s]   139 |         Eigen::Matrix2d S = H * P_ * H.transpose() + [01;31m[KR_[m[K;
+[2.242s]       |                                                      [01;31m[K^~[m[K
+[2.308s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::performMeasurementUpdates()[m[K’:
+[2.309s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:153:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+[2.309s]   153 |         if ([01;31m[Kcone_polar_positions_[m[K.empty() || cone_positions_.empty())
+[2.309s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.314s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:153:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+[2.315s]   153 |         if (cone_polar_positions_.empty() || [01;31m[Kcone_positions_[m[K.empty())
+[2.315s]       |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.315s]       |                                              [32m[Knode_options_[m[K
+[2.323s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:157:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+[2.323s]   157 |         size_t start_idx = ([01;31m[Kcone_polar_positions_[m[K.size() > N) ? cone_polar_positions_.size() - N : 0;
+[2.323s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.331s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:169:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[2.331s]   169 |             double x_global = [01;31m[Kx_[m[K(0) + std::cos(x_(2)) * x_local - std::sin(x_(2)) * y_local;
+[2.331s]       |                               [01;31m[K^~[m[K
+[2.337s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:176:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+[2.337s]   176 |             for (size_t j = 0; j < [01;31m[Kcone_positions_[m[K.size(); ++j)
+[2.337s]       |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.337s]       |                                    [32m[Knode_options_[m[K
+[2.345s] [01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:193:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+[2.345s]   193 |                 measurementUpdate(z, [01;31m[Kcone_positions_[m[K[best_idx]);
+[2.345s]       |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.345s]       |                                      [32m[Knode_options_[m[K
+[4.739s] gmake[2]: *** [CMakeFiles/update_ekf.dir/build.make:76: CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o] Error 1
+[4.740s] gmake[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/update_ekf.dir/all] Error 2
+[4.740s] gmake: *** [Makefile:146: all] Error 2
+[4.742s] Invoked command in '/home/rohit/slam2/build/hello' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/iitb-racecar/install/racecar:/home/rohit/iitb-racecar/install/point_mass_pkg:/home/rohit/iitb-racecar/install/odom_cmd_pkg:/home/rohit/iitb-racecar/install/dynamic_bicycle_pkg:/home/rohit/ros2_ws/install/launch_testing_examples:/home/rohit/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/rohit/ros2_ws/install/examples_rclpy_minimal_service:/home/rohit/ros2_ws/install/examples_rclpy_minimal_publisher:/home/rohit/ros2_ws/install/examples_rclpy_minimal_client:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_server:/home/rohit/ros2_ws/install/examples_rclpy_minimal_action_client:/home/rohit/ros2_ws/install/examples_rclpy_guard_conditions:/home/rohit/ros2_ws/install/examples_rclpy_executors:/home/rohit/install/py_pubsub:/home/rohit/install/package1:/home/rohit/install/pack1:/home/rohit/install/my_package:/home/rohit/install/launch_testing_examples:/home/rohit/install/examples_rclpy_pointcloud_publisher:/home/rohit/install/examples_rclpy_minimal_subscriber:/home/rohit/install/examples_rclpy_minimal_service:/home/rohit/install/examples_rclpy_minimal_publisher:/home/rohit/install/examples_rclpy_minimal_client:/home/rohit/install/examples_rclpy_minimal_action_server:/home/rohit/install/examples_rclpy_minimal_action_client:/home/rohit/install/examples_rclpy_guard_conditions:/home/rohit/install/examples_rclpy_executors:/home/rohit/install/eufs_launcher:/home/rohit/install/eufs_tracks:/home/rohit/install/eufs_rqt:/home/rohit/install/eufs_racecar:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20

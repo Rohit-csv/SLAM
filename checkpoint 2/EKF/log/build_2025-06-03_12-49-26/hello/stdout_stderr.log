@@ -1,0 +1,33 @@
+[ 14%] Built target actual
+[ 42%] Built target node1
+[ 42%] Built target node
+[ 50%] [32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o[0m
+[ 64%] Built target v
+[ 78%] Built target ground_truth
+[ 92%] Built target calculation
+[100%] [32m[1mLinking CXX executable node2[0m
+[100%] Built target node2
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node1
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node2
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/calculation
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/ground_truth
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/v
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/actual
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/lib/hello/node
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/environment/path.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.bash
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.sh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.zsh
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/local_setup.dsv
+-- Symlinking: /home/rohit/slam2/install/hello/share/hello/package.dsv
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/ament_index/resource_index/packages/hello
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig.cmake
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig-version.cmake
+-- Up-to-date symlink: /home/rohit/slam2/install/hello/share/hello/package.xml

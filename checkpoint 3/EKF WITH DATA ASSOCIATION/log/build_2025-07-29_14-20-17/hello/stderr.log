@@ -1,0 +1,4 @@
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::poseCallback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:243:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  243 |     void poseCallback([01;35m[Kconst geometry_msgs::msg::Pose2D::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

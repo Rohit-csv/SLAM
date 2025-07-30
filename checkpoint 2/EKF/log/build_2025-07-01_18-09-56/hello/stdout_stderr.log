@@ -1,0 +1,95 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found eufs_msgs: 2.0.0 (/home/rohit/install/eufs_msgs/share/eufs_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rohit/slam2/build/hello
+[35m[1mConsolidate compiler generated dependencies of target actual[0m
+[35m[1mConsolidate compiler generated dependencies of target v[0m
+[35m[1mConsolidate compiler generated dependencies of target node[0m
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[35m[1mConsolidate compiler generated dependencies of target calculation[0m
+[35m[1mConsolidate compiler generated dependencies of target node2[0m
+[35m[1mConsolidate compiler generated dependencies of target ground_truth[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 18%] Built target node
+[ 31%] Built target actual
+[ 56%] Built target node2
+[ 56%] Built target v
+[ 68%] Built target node1
+[ 81%] Built target calculation
+[ 93%] Built target ground_truth
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:24:57:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::SerializedMessage[m[K’ does not name a type
+   24 |     void pose_callback(const rclcpp::SerializedMessage::[01;31m[KSharedPtr[m[K msg) {
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In constructor ‘[01m[KPose2DSubscriber::Pose2DSubscriber()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:9:65:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::SerializedMessage[m[K’ does not name a type
+    9 |         auto callback = [this](const rclcpp::SerializedMessage::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:11:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   11 |         }[01;31m[K;[m[K
+      |          [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:9:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    9 |         auto callback = [this][01;36m[K([m[Kconst rclcpp::SerializedMessage::SharedPtr msg) {
+      |                               [01;36m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In lambda function:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:11:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   11 |         }[01;31m[K;[m[K
+      |          [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In constructor ‘[01m[KPose2DSubscriber::Pose2DSubscriber()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:13:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPose2DSubscriber::create_generic_subscription(const char [15], const char [25], rclcpp::QoS, Pose2DSubscriber::Pose2DSubscriber()::<lambda(int)>&)[m[K’
+   13 |         subscription_ = [01;31m[Kthis->create_generic_subscription([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   14 | [01;31m[K            "/robot_pose_2d",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                             
+   15 | [01;31m[K            "geometry_msgs/msg/Pose2D",  // ROS 2 type name[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K            rclcpp::QoS(10),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                              
+   17 | [01;31m[K            callback[m[K
+      |             [01;31m[K~~~~~~~~[m[K                                      
+   18 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:312:48:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class AllocatorT> std::shared_ptr<rclcpp::GenericSubscription> rclcpp::Node::create_generic_subscription(const string&, const string&, const rclcpp::QoS&, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+  312 |   std::shared_ptr<rclcpp::GenericSubscription> [01;36m[Kcreate_generic_subscription[m[K(
+      |                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:312:48:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:17:13:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kcallback[m[K’ (type ‘[01m[KPose2DSubscriber::Pose2DSubscriber()::<lambda(int)>[m[K’) to type ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>[m[K’
+   17 |             [01;36m[Kcallback[m[K
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::pose_callback(int)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:27:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   27 |         if (msg[01;31m[K->[m[Ksize() < 24) {  // 3 doubles = 24 bytes
+      |                [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:32:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   32 |         const uint8_t* data = msg[01;31m[K->[m[Kget_rcl_serialized_message().buffer;
+      |                                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

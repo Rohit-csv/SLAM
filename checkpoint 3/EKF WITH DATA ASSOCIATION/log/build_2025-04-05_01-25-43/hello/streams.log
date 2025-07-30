@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target node[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[2.682s] [100%] [32m[1mLinking CXX executable node[0m
+[2.812s] [100%] Built target node
+[2.824s] Invoked command in '/home/rohit/slam2/build/hello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/slam2/build/hello -- -j20 -l20
+[2.836s] Invoking command in '/home/rohit/slam2/build/hello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --install /home/rohit/slam2/build/hello
+[2.847s] -- Install configuration: ""
+[2.847s] -- Installing: /home/rohit/slam2/install/hello/lib/hello/node
+[2.848s] -- Set runtime path of "/home/rohit/slam2/install/hello/lib/hello/node" to ""
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.sh
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/environment/ament_prefix_path.dsv
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/environment/path.sh
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/environment/path.dsv
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/local_setup.bash
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/local_setup.sh
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/local_setup.zsh
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/local_setup.dsv
+[2.849s] -- Installing: /home/rohit/slam2/install/hello/share/hello/package.dsv
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/ament_index/resource_index/packages/hello
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig.cmake
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/cmake/helloConfig-version.cmake
+[2.849s] -- Up-to-date: /home/rohit/slam2/install/hello/share/hello/package.xml
+[2.851s] Invoked command in '/home/rohit/slam2/build/hello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/2dof/install/pos:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --install /home/rohit/slam2/build/hello

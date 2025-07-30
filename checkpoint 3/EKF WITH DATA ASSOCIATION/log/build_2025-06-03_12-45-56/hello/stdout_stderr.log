@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target node2[0m
+[ 14%] Built target calculation
+[ 28%] Built target node
+[ 42%] Built target node1
+[ 57%] Built target actual
+[ 78%] [32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o[0m
+[ 78%] Built target v
+[ 92%] Built target ground_truth
+[100%] [32m[1mLinking CXX executable node2[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/node2.dir/build.make:175: node2] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/node2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

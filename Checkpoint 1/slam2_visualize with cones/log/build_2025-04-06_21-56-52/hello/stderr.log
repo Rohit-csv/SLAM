@@ -1,0 +1,58 @@
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   49 |     void imuCallback(const [01;31m[Ksensor_msgs[m[K::msg::Imu::SharedPtr msg) {
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   49 |     void imuCallback(const sensor_msgs::msg[01;31m[K::[m[KImu::SharedPtr msg) {
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   49 |     void imuCallback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImu::SharedPtr msg) {
+      |                     [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   49 |     void imuCallback(const sensor_msgs::[01;31m[Kmsg[m[K::Imu::SharedPtr msg) {
+      |                                         [01;31m[K^~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:49:46:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   49 |     void imuCallback(const sensor_msgs::msg::[01;31m[KImu[m[K::SharedPtr msg) {
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   58 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>::SharedPtr imu_sub_;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |     rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr imu_sub_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K imu_sub_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:58:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub_[m[K’ does not name a type
+   58 |     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Kimu_sub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:[m[K In constructor ‘[01m[KWheelSpeedToVelocity::WheelSpeedToVelocity()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub_[m[K’ was not declared in this scope
+   14 |         [01;31m[Kimu_sub_[m[K = this->create_subscription<sensor_msgs::msg::Imu>(
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   14 |         imu_sub_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>(
+      |                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:14:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |         imu_sub_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Imu>[m[K(
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:16:24:[m[K [01;31m[Kerror: [m[K‘[01m[KImuSubscriberNode[m[K’ has not been declared
+   16 |             std::bind(&[01;31m[KImuSubscriberNode[m[K::imuCallback, this, std::placeholders::_1));
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:[m[K In member function ‘[01m[Kvoid WheelSpeedToVelocity::wheel_speed_callback(eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocity_msg[m[K’?
+   42 |         [01;31m[Kvelocity_pub_[m[K->publish(velocity_msg);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Kvelocity_msg[m[K
+[01m[K/home/rohit/slam2/src/hello/src/calculation.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimucallback[m[K’ was not declared in this scope; did you mean ‘[01m[KimuCallback[m[K’?
+   46 |         [01;31m[Kimucallback[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[KimuCallback[m[K
+gmake[2]: *** [CMakeFiles/calculation.dir/build.make:76: CMakeFiles/calculation.dir/src/calculation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/calculation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

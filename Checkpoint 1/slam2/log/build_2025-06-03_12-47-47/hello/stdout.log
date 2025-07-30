@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target node2[0m
+[ 28%] Built target node
+[ 28%] Built target actual
+[ 42%] Built target node1
+[ 57%] Built target v
+[ 71%] Built target calculation
+[ 85%] Built target ground_truth
+[ 92%] [32m[1mLinking CXX executable node2[0m

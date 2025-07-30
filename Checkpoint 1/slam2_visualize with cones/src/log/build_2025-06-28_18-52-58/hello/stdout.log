@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found eufs_msgs: 2.0.0 (/home/rohit/install/eufs_msgs/share/eufs_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rohit/slam2/src/build/hello
+[  7%] [32mBuilding CXX object CMakeFiles/actual.dir/src/actual.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/v.dir/src/v.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ground_truth.dir/src/ground_truth.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/calculation.dir/src/calculation.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable actual[0m
+[ 57%] Built target actual
+[ 64%] [32m[1mLinking CXX executable node2[0m
+[ 71%] [32m[1mLinking CXX executable node1[0m
+[ 78%] [32m[1mLinking CXX executable ground_truth[0m
+[ 78%] Built target node1
+[ 78%] Built target node2
+[ 78%] Built target ground_truth
+[ 85%] [32m[1mLinking CXX executable node[0m
+[ 85%] Built target node
+[ 92%] [32m[1mLinking CXX executable v[0m
+[ 92%] Built target v
+[100%] [32m[1mLinking CXX executable calculation[0m
+[100%] Built target calculation
+-- Install configuration: ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/node1
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/node1" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/node2
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/node2" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/calculation
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/calculation" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/ground_truth
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/ground_truth" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/v
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/v" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/actual
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/actual" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/lib/hello/node
+-- Set runtime path of "/home/rohit/slam2/src/install/hello/lib/hello/node" to ""
+-- Installing: /home/rohit/slam2/src/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+-- Installing: /home/rohit/slam2/src/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/environment/ament_prefix_path.sh
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/environment/ament_prefix_path.dsv
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/environment/path.sh
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/environment/path.dsv
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/local_setup.bash
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/local_setup.sh
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/local_setup.zsh
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/local_setup.dsv
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/package.dsv
+-- Installing: /home/rohit/slam2/src/install/hello/share/ament_index/resource_index/packages/hello
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/cmake/helloConfig.cmake
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/cmake/helloConfig-version.cmake
+-- Installing: /home/rohit/slam2/src/install/hello/share/hello/package.xml

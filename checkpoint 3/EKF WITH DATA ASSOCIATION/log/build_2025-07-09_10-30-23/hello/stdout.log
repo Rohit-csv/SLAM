@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[35m[1mConsolidate compiler generated dependencies of target update_ekf[0m
+[ 11%] Built target node2
+[ 22%] Built target actual
+[ 33%] Built target node1
+[ 44%] Built target v
+[ 66%] Built target calculation
+[ 66%] Built target node
+[ 77%] Built target ekf
+[ 83%] [32mBuilding CXX object CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o[0m
+[ 94%] Built target ground_truth

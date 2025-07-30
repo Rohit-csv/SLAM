@@ -1,0 +1,7 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In constructor ‘[01m[KPose2DSubscriber::Pose2DSubscriber()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:18:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcones_callback[m[K’ is not a member of ‘[01m[KPose2DSubscriber[m[K’
+   18 |             std::bind(&Pose2DSubscriber::[01;31m[Kcones_callback[m[K, this, std::placeholders::_1));
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

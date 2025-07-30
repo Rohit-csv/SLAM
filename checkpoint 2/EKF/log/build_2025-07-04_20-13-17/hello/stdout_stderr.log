@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[ 12%] Built target node2
+[ 25%] Built target node1
+[ 37%] Built target calculation
+[ 50%] Built target ground_truth
+[ 62%] Built target node
+[ 75%] Built target actual
+[ 87%] Built target v
+[ 93%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid GlobalRacetrackMapper::onPose(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishMarker[m[K’ was not declared in this scope
+   52 |         [01;31m[KpublishMarker[m[K(); // visualize predicted marker
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

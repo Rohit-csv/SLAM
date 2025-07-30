@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target ekf[0m
+[ 18%] Built target node
+[ 25%] Built target ground_truth
+[ 37%] Built target node2
+[ 50%] Built target v
+[ 62%] Built target actual
+[ 75%] Built target calculation
+[ 81%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf.cpp.o[0m
+[ 93%] Built target node1
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid GlobalRacetrackMapper::publishMarker()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  104 |         [01;31m[Ktf2[m[K::Quaternion q;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+  105 |         [01;31m[Kq[m[K.setRPY(0, 0, x_hat_(2));
+      |         [01;31m[K^[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:106:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  106 |         m.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  116 |         [01;31m[Kmarker_pub_[m[K->publish(m);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

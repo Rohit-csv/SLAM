@@ -1,0 +1,4 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid Pose2DSubscriber::publishMarkerArray(const std::vector<std::vector<double, std::allocator<double> > >&, rclcpp::Publisher<visualization_msgs::msg::MarkerArray_<std::allocator<void> > >::SharedPtr, rclcpp::Node*, int, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:71:9:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdel_markers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |     [01;35m[Kint del_markers = 0[m[K,
+      |     [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K

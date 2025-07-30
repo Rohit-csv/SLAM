@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target update_ekf[0m
+[ 11%] Built target v
+[ 22%] Built target actual
+[ 27%] [32mBuilding CXX object CMakeFiles/ground_truth.dir/src/ground_truth.cpp.o[0m
+[ 38%] Built target node2
+[ 61%] Built target node1
+[ 61%] Built target ekf
+[ 72%] Built target calculation
+[ 83%] Built target node
+[ 94%] Built target update_ekf

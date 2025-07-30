@@ -1,0 +1,114 @@
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In constructor ‘[01m[KEKFLocalizer::EKFLocalizer()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_sub_[m[K’ was not declared in this scope
+   27 |         [01;31m[Kpose_sub_[m[K = create_subscription<geometry_msgs::msg::Pose2D>(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcones_sub_[m[K’ was not declared in this scope
+   31 |         [01;31m[Kcones_sub_[m[K = this->create_subscription<geometry_msgs::msg::PoseArray>(
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+   35 |         [01;31m[Kmarker_pub_[m[K = create_publisher<visualization_msgs::msg::Marker>(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ was not declared in this scope
+   38 |         [01;31m[Kvel_sub_[m[K = this->create_subscription<geometry_msgs::msg::TwistStamped>(
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_cones_polar_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_cones_polar_callback[m[K’?
+   42 |         [01;31m[Klocal_cones_polar_sub_[m[K = this->create_subscription<geometry_msgs::msg::PoseArray>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Klocal_cones_polar_callback[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+   46 |         [01;31m[Kx_[m[K = Eigen::Vector3d::Zero();
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+   48 |         [01;31m[KP_[m[K << 10.0, 0.0, 0.0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+   51 |         [01;31m[KQ_[m[K << 0.1, 0, 0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope
+   54 |         [01;31m[KR_[m[K << 0.5, 0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_timer_[m[K’ was not declared in this scope
+   57 |         [01;31m[Kmarker_timer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:59:38:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishMarker[m[K’ is not a member of ‘[01m[KEKFLocalizer[m[K’
+   59 |             std::bind(&EKFLocalizer::[01;31m[KpublishMarker[m[K, this));
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::conesArrayCallback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+   69 |         [01;31m[Kcone_positions_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Knode_options_[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::logConePositions() const[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+   82 |         for (const auto &pt : [01;31m[Kcone_positions_[m[K)
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                               [32m[Knode_options_[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::poseCallback(geometry_msgs::msg::Pose2D_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+   91 |         [01;31m[Kx_[m[K(0) = msg->x;
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::velCallback(geometry_msgs::msg::TwistStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx_[m[K’ was not declared in this scope
+   99 |         [01;31m[Kvx_[m[K = msg->twist.linear.x;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy_[m[K’ was not declared in this scope
+  100 |         [01;31m[Kvy_[m[K = msg->twist.linear.y;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_[m[K’ was not declared in this scope
+  101 |         [01;31m[Kv_[m[K = std::sqrt(vx_ * vx_ + vy_ * vy_);
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::predictCovariance(double)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_[m[K’ was not declared in this scope
+  107 |         calculateJacobianAndTranspose(theta, [01;31m[Kv_[m[K, dt_, F_k, F_k_T);
+      |                                              [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt_[m[K’ was not declared in this scope
+  107 |         calculateJacobianAndTranspose(theta, v_, [01;31m[Kdt_[m[K, F_k, F_k_T);
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateJacobianAndTranspose[m[K’ was not declared in this scope
+  107 |         [01;31m[KcalculateJacobianAndTranspose[m[K(theta, v_, dt_, F_k, F_k_T);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+  108 |         [01;31m[KP_[m[K = F_k * P_ * F_k_T + Q_;
+      |         [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope
+  108 |         P_ = F_k * P_ * F_k_T + [01;31m[KQ_[m[K;
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::local_cones_polar_callback(geometry_msgs::msg::PoseArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+  113 |         [01;31m[Kcone_polar_positions_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::measurementUpdate(const Vector2d&, const Vector2d&)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:127:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+  127 |         double dx = cone_pos.x() - [01;31m[Kx_[m[K(0);
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:139:33:[m[K [01;31m[Kerror: [m[K‘[01m[KP_[m[K’ was not declared in this scope
+  139 |         Eigen::Matrix2d S = H * [01;31m[KP_[m[K * H.transpose() + R_;
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:139:54:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope
+  139 |         Eigen::Matrix2d S = H * P_ * H.transpose() + [01;31m[KR_[m[K;
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:[m[K In member function ‘[01m[Kvoid EKFLocalizer::performMeasurementUpdates()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:153:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+  153 |         if ([01;31m[Kcone_polar_positions_[m[K.empty() || cone_positions_.empty())
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:153:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+  153 |         if (cone_polar_positions_.empty() || [01;31m[Kcone_positions_[m[K.empty())
+      |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                              [32m[Knode_options_[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:157:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_polar_positions_[m[K’ was not declared in this scope
+  157 |         size_t start_idx = ([01;31m[Kcone_polar_positions_[m[K.size() > N) ? cone_polar_positions_.size() - N : 0;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:169:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+  169 |             double x_global = [01;31m[Kx_[m[K(0) + std::cos(x_(2)) * x_local - std::sin(x_(2)) * y_local;
+      |                               [01;31m[K^~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:176:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+  176 |             for (size_t j = 0; j < [01;31m[Kcone_positions_[m[K.size(); ++j)
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                    [32m[Knode_options_[m[K
+[01m[K/home/rohit/slam2/src/hello/src/update_ekf.cpp:193:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcone_positions_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_options_[m[K’?
+  193 |                 measurementUpdate(z, [01;31m[Kcone_positions_[m[K[best_idx]);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Knode_options_[m[K
+gmake[2]: *** [CMakeFiles/update_ekf.dir/build.make:76: CMakeFiles/update_ekf.dir/src/update_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:205: CMakeFiles/update_ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

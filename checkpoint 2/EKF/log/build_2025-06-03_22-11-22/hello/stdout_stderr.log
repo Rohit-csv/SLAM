@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[ 14%] Built target v
+[ 28%] Built target calculation
+[ 64%] Built target actual
+[ 64%] Built target node2
+[ 71%] Built target ground_truth
+[ 78%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[ 92%] Built target node
+[01m[K/home/rohit/slam2/src/hello/src/node1.cpp:[m[K In member function ‘[01m[Kvoid VelocityEstimator::callback(eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/node1.cpp:23:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krb_speed[m[K’
+   23 |     double rb = msg->[01;31m[Krb_speed[m[K;
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/node1.cpp:24:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klb_speed[m[K’
+   24 |     double lb = msg->[01;31m[Klb_speed[m[K;
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/node1.cpp:28:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct eufs_msgs::msg::WheelSpeedsStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteering[m[K’
+   28 |     double steering_rad = msg->[01;31m[Ksteering[m[K;
+      |                                [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/node1.dir/build.make:76: CMakeFiles/node1.dir/src/node1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/node1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

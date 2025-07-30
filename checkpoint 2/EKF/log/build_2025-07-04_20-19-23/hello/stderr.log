@@ -1,0 +1,17 @@
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In constructor ‘[01m[KGlobalRacetrackMapper::GlobalRacetrackMapper()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:25:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcones_callback[m[K’ is not a member of ‘[01m[KGlobalRacetrackMapper[m[K’
+   25 |             std::bind(&GlobalRacetrackMapper::[01;31m[Kcones_callback[m[K, this, std::placeholders::_1));
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:[m[K In member function ‘[01m[Kvoid GlobalRacetrackMapper::publishMarker()[m[K’:
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+  122 |         [01;31m[Kmarker[m[K.pose.orientation.w = 1.0;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:128:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor[m[K’ was not declared in this scope
+  128 |         marker.color.r = [01;31m[Kcolor[m[K[0];
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/rohit/slam2/src/hello/src/ekf.cpp:133:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  133 |         return [01;31m[Kmarker[m[K;
+      |                [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/ekf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
