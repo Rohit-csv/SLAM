@@ -43,8 +43,9 @@ private:
         double dt = 0.05;
 
         // Motion model update
-        double delta_x = std::cos(yaw_) * vx_ * dt;
-        double delta_y = std::sin(yaw_) * vx_ * dt;
+        double delta_x = (std::cos(yaw_) * vx_ - std::sin(yaw_) * vy_) * dt;
+        double delta_y = (std::sin(yaw_) * vx_ + std::cos(yaw_) * vy_) * dt;
+
         double delta_yaw = yaw_rate_ * dt;
 
         x_ += delta_x;
